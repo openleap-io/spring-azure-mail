@@ -5,8 +5,8 @@ This is a simple Spring Boot PoC application that sends emails using Microsoft G
 
 ```mermaid
 graph LR
-    A[Spring Boot] -->|2. Call Graph API| B[Microsoft Graph API]
-    A -->|1. Aquere JWT| C[Azure Entra ID]
+    A[Spring Boot]-- 2. Call Graph API -->B[Microsoft Graph API]
+    A-- 1. Aquere JWT -->C[Azure Entra ID]
 
 ```
 
